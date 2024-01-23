@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        .item-content{
+            display: flex;
+            height: 300px;
+            width:100%;
+            border:2px solid rgb(238, 230, 230);
+            border-radius: 10px;
+            
+        }
+        
+        .item-image{
+           width :20%;
+           background-color: aliceblue;
+           border:2px solid rgb(238, 230, 230);
+        }
+        .item-details{
+            width:80%;
+            border:2px solid rgb(238, 230, 230);
+            padding-left: 20px;
+        }
+        .item-title{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .item-title:hover{
+            overflow: visible;
+        }
+        .link{
+            text-decoration: none;
+            color:black;
+        } 
+        
+        #link1 {
+            font-size: larger;
+        }
+        .author{
+            text-decoration: none;
+        }
+        .item-title,.author:hover{
+            color:brown;
+        }
+        .price{
+            font-size: larger;
+        }
+        .button{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 75px;
+            padding-right: 75px;
+            background-color: rgb(215, 228, 101);
+            border: 2px none lightblue ;
+            border-radius: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+   
+    <div class="item-content">
+        <div class ="item-image">
+            <img src="images/book1.jpg" >
+        </div>
+        <div class="item-details">
+            <p class="item-title">
+                <a class="link" id="link1" href="https://www.amazon.com/Interesting-Facts-Curious-Minds-Mind-Blowing/dp/B0B6XFT4RH/ref=zg_d_sccl_2/144-6659017-8367347?pd_rd_w=HXrnM&content-id=amzn1.sym.193afb92-0c19-4833-86f8-850b5ba40291&pf_rd_p=193afb92-0c19-4833-86f8-850b5ba40291&pf_rd_r=TV1TN3A703H97A5KGW3S&pd_rd_wg=qqGur&pd_rd_r=05f3c9db-7e43-475b-96a0-9434dfa67bcc&pd_rd_i=B0B6XFT4RH&psc=1">
+                    Interesting Facts For Curious Minds: Random But Mind-Blowing Facts About History, Science, Pop Culture And Everything In Between Paperback – July 18, 2022</a></p>
+            <p>by <a class="author" href="#">Jordan Moore </a>(Author)</p>
+            <p class="availability">In Stock</p>
+            <p class="price">&dollar;17.23</p>
+            <button class="button"><a class="link" href="https://www.amazon.com/Interesting-Facts-Curious-Minds-Mind-Blowing/dp/B0B6XFT4RH/ref=zg_d_sccl_2/144-6659017-8367347?pd_rd_w=HXrnM&content-id=amzn1.sym.193afb92-0c19-4833-86f8-850b5ba40291&pf_rd_p=193afb92-0c19-4833-86f8-850b5ba40291&pf_rd_r=TV1TN3A703H97A5KGW3S&pd_rd_wg=qqGur&pd_rd_r=05f3c9db-7e43-475b-96a0-9434dfa67bcc&pd_rd_i=B0B6XFT4RH&psc=1">Buy now</a></button>
+        </div>
+    </div>
+    
+</body>
+</html>

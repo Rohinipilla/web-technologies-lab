@@ -1,0 +1,53 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Factorial</title>
+    <style>
+        
+        .centre{
+            position: absolute;
+            padding: 10px;
+            align-content: center;
+            height:200px;
+            width:300px;
+            background-color: azure;
+            border-radius: 8px;
+            border-width: 2px;
+            border: 2px solid black;
+            
+        }
+        button{
+           border-radius: 2px;
+            border-width: 3px;
+            border: 2px solid black;
+            margin: 10%;
+        }
+       
+    </style>
+</head>  
+<body> 
+    <center>
+        <div class="centre">
+            
+            Enter a number: <input  id = "num">  
+            
+            <button onclick = "fact()"> Factorial </button>  
+            <p id = "res"></p>
+        
+        </div>
+    </center>
+    <script> 
+        var f =1;
+        function fact(){ 
+            var f =1; 
+            let n = document.getElementById("num").value;
+            let num =n;
+            while(n>0){
+                f *=n;
+                n--;
+            }
+            document.getElementById("res").innerHTML = "The factorial of the number " + num + " is: " + f ; 
+        } 
+    </script>  
+</body>  
+</html>  

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sum</title>
+</head>
+<body>
+    <div>
+        Enter a  number : <input id="num">
+        <br><br>
+        <button onclick="sum()">sum</button>
+    </div>
+    <script>
+        function sum(){
+            let i =1;
+            let res=0;
+            let n = document.getElementById("num").value;
+            for(i=1;i<=n;i++){
+                res += i;
+            }
+            alert(res);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+    <style>
+        button{
+            color: blue;
+            border-radius: 2px;
+            border-width: 3px;
+            border: 2px solid black;
+            padding: 10px 20px 10px 20px;
+           
+        }
+        center{
+            margin: 25%;
+        }
+    </style>
+</head>
+<body>
+    
+    <center>
+        <button onclick="myfunction()">Date</button>
+        <p id="demo"></p>
+        
+    </center>
+    <script>
+        function myfunction(){
+            const date = new Date();
+            document.getElementById("demo").innerHTML = date;
+        }
+    </script>
+</body>
+</html>
