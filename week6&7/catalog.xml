@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <book>
+        <title>Harry potter</title>
+        <author>j.k.rowling</author>
+        <isbn>1841</isbn>
+        <publisher>Blumsburry</publisher>
+        <edition>I</edition>
+        <price>$33 </price>
+    </book>
+    <book>
+        <title>Introduction to XML</title>
+        <author>jhone doe</author>
+        <isbn>7603</isbn>
+        <publisher>Indian</publisher>
+        <edition>VI</edition>
+        <price>$19</price>
+    </book>
+    <book>
+        <title>2 states</title>
+        <author>chetan bagath</author>
+        <isbn>4344</isbn>
+        <publisher>Rupa</publisher>
+        <edition>III</edition>
+        <price>$22 </price>
+    </book>
+</catalog>
